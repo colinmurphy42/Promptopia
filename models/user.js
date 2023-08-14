@@ -20,7 +20,7 @@ const UserSchema = new Schema({
   }
 });
 
-//Checking models.User ensure that a User model does not already exist in mongoose before continuing
+//Checking models.User ensures using a User model that has already been created in mongoose (if exists) before continuing
 const User = models.User || model('User', UserSchema);
 
 export default User;

@@ -9,11 +9,11 @@ const Home = () => {
           AI-Powered Prompts
         </span>
         <p className={'desc text-center'}>
-          Promptopia is an open-source AI prompting project, create and share
-          awesome prompts
+          Promptopia is an open-source AI prompting project,
+          create and share awesome prompts
         </p>
-        <Feed />
       </h1>
+      <Feed />
     </section>
   );
 };
